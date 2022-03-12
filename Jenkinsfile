@@ -15,6 +15,12 @@ pipeline {
           }
         }
 
+        stage('new') {
+          steps {
+            build 'new'
+          }
+        }
+
       }
     }
 
